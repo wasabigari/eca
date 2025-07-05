@@ -38,7 +38,7 @@ public enum LoginErrorCode implements ErrorCode {
     private final String code;
     private final String message;
     
-    SignupErrorCode(String code, String message) {
+    LoginErrorCode(String code, String message) {
         this.code = code;
         this.message = message;
     }
